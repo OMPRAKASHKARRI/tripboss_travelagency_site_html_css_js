@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TravelBlog</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel = "stylesheet" href = "font/fonts.css">
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/utility.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/nature-water-mountains-trees-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pavan {
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0px 0px 6px;
+    width: 300px;
+    border-radius: 10px;
+}
+.pavan h2 {
+    text-align: center;
+}
+.pavan label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.pavan input,
+.pavan select,
+.pavan textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.pavan input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0c34ba;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pavan input[type="submit"]:hover {
+    background-color: #c4a51b;
+}
+.pavan1 {
+    margin-left: 30px;
+}
+    </style>
+</head>
+<body>
+    <!-- end of navbar  -->
+    <div class="pavan">
+        <h2>Login</h2>
+       
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="pswd">Password</label>
+        <input type="password" id="pswd" name="password" required>
+
+        <a href="index.html"><input type="submit" value="Submit"></a>
+        <p>Dont't have an account? <a href="signup.html" class="pavan1">Sign up</a></p>
+    </div>
+     <!-- js -->
+    <!-- <script src = "js/script.js"></script>
+     <script>-->
+</body>
+</html>
